@@ -1,5 +1,5 @@
 {% set name = "metatrain" %}
-{% set version = "2025.0" %}
+{% set version = "2025.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/metatrain-{{ version }}.tar.gz
-  sha256: 9db541119a7c8ccce68843fe1b650dab0c812485284e3f18a3e0c309bc2a1d5b
+  sha256: 7eeb75f0e155854405d091c9691094e8e995387d2603556200785f0da13bb650
 
 build:
   entry_points:
