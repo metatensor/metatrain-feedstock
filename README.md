@@ -3,7 +3,7 @@ About metatrain-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/metatrain-feedstock/blob/main/LICENSE.txt)
 
-Home: https://metatensor.github.io/metatrain
+Home: https://github.com/metatensor/metatrain
 
 Package license: BSD-3-Clause
 
