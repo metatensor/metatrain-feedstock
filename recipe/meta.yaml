@@ -1,5 +1,5 @@
 {% set name = "metatrain" %}
-{% set version = "2025.8.1" %}
+{% set version = "2025.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/metatrain-{{ version }}.tar.gz
-  sha256: 75b2a630f049f0a95945ba2656a7120d4eabe7582f9ac059d7373cb97aba92b6
+  sha256: 6f07edc3dd59132bfa116c9c91cbd5ef0e19fc995eafdaa4facfce641406dce2
 
 build:
   entry_points:
@@ -21,19 +21,20 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools >=68
+    - setuptools >=77
     - setuptools-scm >=8
     - wheel
     - pip
   run:
     - python >={{ python_min }}
     - ase
+    - huggingface_hub
     - python-metatensor-learn >=0.3.2,<0.4
-    - python-metatensor-operations >=0.3.3,<0.4
+    - python-metatensor-operations >=0.3.4,<0.4
     - python-metatensor-torch >=0.7.6,<0.8
     - python-metatomic-torch >=0.1.2,<0.2
     - jsonschema
-    - omegaconf
+    - omegaconf >=2.3.0
     - python-hostlist
     - pytorch
     - python-vesin
