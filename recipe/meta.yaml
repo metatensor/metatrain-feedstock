@@ -31,8 +31,8 @@ requirements:
     - huggingface_hub
     - python-metatensor-learn >=0.3.2,<0.4
     - python-metatensor-operations >=0.3.4,<0.4
-    - python-metatensor-torch >=0.7.6,<0.8
-    - python-metatomic-torch >=0.1.2,<0.2
+    - python-metatensor-torch >=0.8.1,<0.9
+    - python-metatomic-torch >=0.1.5,<0.2
     - jsonschema
     - omegaconf >=2.3.0
     - python-hostlist
